@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <section class="game-layout">
+        <div class="row">
+            <h1>TIC TAC TOE</h1>
+        </div>
+        <div class="row">
+            <h2>Enter Player Name</h2>
+            <input type="text" placeholder="Player A" id="playerName"></input>
+        </div>
+        <div class="game-grid">
+            <div class="row">
+                <div class="column" id="1" onclick="divClick(this.id)"><p>&nbsp;</p></div>
+                <div class="column" id="2" onclick="divClick(this.id)"><p>&nbsp;</p></div>
+                <div class="column" id="3" onclick="divClick(this.id)"><p>&nbsp;</p></div>
+            </div>
+            <div class="row">
+                    <div class="column" id="4" onclick="divClick(this.id)"><p>&nbsp;</p></div>
+                <div class="column" id="5" onclick="divClick(this.id)"><p>&nbsp;</p></div>
+                <div class="column" id="6" onclick="divClick(this.id)"><p>&nbsp;</p></div>
+            </div>
+            <div class="row">
+                    <div class="column" id="7" onclick="divClick(this.id)"><p>&nbsp;</p></div>
+                <div class="column" id="8" onclick="divClick(this.id)"><p>&nbsp;</p></div>
+                <div class="column" id="9" onclick="divClick(this.id)"><p>&nbsp;</p></div>
+            </div>
+        </div>
+        <div class="message-section" id="showMessage">
+        </div>
+
+    </section>
+</body>
+
+</html>
